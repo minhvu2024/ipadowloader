@@ -1,0 +1,13 @@
+{
+  "name": "ipa-downloader-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for IPA Downloader (Wails)",
+  "scripts": {
+    "build": "tailwindcss -i src/input.css -o dist/style.css --minify && node build.js",
+    "dev": "tailwindcss -i src/input.css -o dist/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  },
+  "private": true
+}

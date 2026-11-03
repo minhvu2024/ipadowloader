@@ -1,0 +1,17 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "IPA Downloader",
+  "outputfilename": "IPA Downloader",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "wailsjsdir": "./frontend",
+  "author": { "name": "Minh Vu" },
+  "info": {
+    "companyName": "Minh Vu",
+    "productName": "IPA Downloader",
+    "productVersion": "1.0.0",
+    "copyright": "",
+    "comments": "Tải file IPA từ App Store bằng Apple ID của bạn"
+  }
+}
